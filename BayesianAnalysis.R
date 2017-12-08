@@ -1,5 +1,5 @@
 x = seq(0,1,length=1000)
-a = 696  # The number of wins observed
+a = 700  # The number of wins observed
 b = 676  # The number of losses observed
 hx = dbeta(x,shape1=a,shape2=b)
 plot(x, hx, type='l',lwd=2,xlab="Theta",ylab="Theta Posterior Density",xlim=c(0.25,0.75),ylim=c(0,35))

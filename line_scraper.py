@@ -171,7 +171,7 @@ if __name__ == "__main__":
 
     nba_date_tuples = [(start_year, 10, 17, 31),  # Typically NBA Only, set start_day to after preseason ends
                    (start_year, 11, 1, 30),
-                   (start_year, 12, 6, 31)]  # NBA Only
+                   (start_year, 12, 1, 6)]  # NBA Only
 
     days_teams = []
 
